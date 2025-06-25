@@ -1,51 +1,86 @@
-<h1 align="center">📊 EngageNet</h1>
-<h3 align="center"><i>A Social Media Engagement and Interaction Tracking System</i></h3>
+# EngageNet 📱
+
+**EngageNet** is a simplified social media engagement database system that simulates the interaction and experience of a typical content-sharing platform. It captures various user actions—like posting, liking ❤️, commenting 💬, saving 📌, sharing 🔁, and reporting 🚩—across the platform.
 
 ---
 
-## 📌 Overview
+## 🔍 Overview
 
-**EngageNet** is a database-driven project that models a simplified social media platform. It supports basic social media features like user accounts, content posting, following others, and engaging with posts through likes, comments, shares, saves, and reports. It also includes limited admin-side functionality to help review and manage content or user activity.
+This platform helps explore how users engage with posts and how administrators can track activity. From users uploading photos and writing captions to viewers liking, sharing, saving, or reporting posts, **EngageNet** provides a holistic view of content engagement.
 
 ---
 
-## 🌟 Key Features
+## ✨ Key Features
 
-- 👤 **User Profiles**  
-  Sign up and manage user details including name, email, phone number, and bio.
+* 📝 **User Profiles**: Create a digital identity with a name, bio, contact, and signup details.
+* 📸 **Post Creation**: Upload posts with captions, locations, and background music.
+* ❤️ **Likes**: Appreciate content with heart ❤️ reactions.
+* 💬 **Comments**: Express thoughts and interact under posts.
+* 📌 **Saves**: Bookmark favorite posts for later.
+* 🔁 **Shares**: Spread great content across the network.
+* 🚩 **Reports**: Flag inappropriate content for admin review.
+* 🛡️ **Admin Controls**: Designated admins monitor and handle reported posts.
+* 👥 **Followers System**: Connect with others through following.
 
-- 📝 **Post Creation**  
-  Upload content with optional ✍️ captions, 📍 location tags, and 🎵 music info.
+---
 
-- 🔔 **Follow System**  
-  Follow and be followed by other users — build your network just like on Instagram.
+## 💡 Use Cases (Queries)
 
-- ❤️ **Likes**  
-  Double-tap style interaction to like posts, just like ❤️ on Instagram.
+Here are some interesting questions you can answer using EngageNet:
 
-- 💬 **Comments**  
-  Share your thoughts on posts and reply to others. Supports threaded replies.
+1. **Top 3 Influential Users**
 
-- 💾 **Saves**  
-  Save posts to revisit them later — like Instagram’s bookmark icon.
+> *Who are the most popular users based on total engagement (likes ❤️ + shares 🔁 + saves 📌 + comments 💬)?*
 
-- 🔁 **Shares**  
-  Re-share posts across your feed or with others.
+2. **Silent Interactors**
 
-- 🚨 **Reports**  
-  Flag inappropriate content to simulate basic content safety features.
+> *Which users only comment 💬 but never like ❤️, save 📌, or share 🔁 posts?*
 
-- 🛡️ **Admin View**  
-  Admins can be linked to users and posts for tracking or record-keeping.
+3. **Most Reported Users**
+
+> *Who are the top 5 users whose posts got reported 🚩 the most?*
+
+4. **Users with Most Saved Posts**
+
+> *Which users consistently create content that others love to save 📌?*
+
+5. **Commenters Who Spark Conversations**
+
+> *Which comments receive the highest number of replies?*
+
+6. **Admin-User Action Map**
+
+> *Which admin handles moderation for which user and post?*
+
+---
+
+## 🗂️ Project Structure
+
+```bash
+EngageNet/
+├── EngageNet_DDL_script.sql         # Table creation scripts
+├── EngageNet_insert_data.txt        # Sample data for the tables
+├── EngageNet_queries.sql            # Useful SQL queries and use cases
+├── EngageNet_BCNF_proof.pdf         # BCNF normalization proof
+├── EngageNet_ER_diagram.pdf         # Entity-Relationship diagram
+├── EngageNet_relational_schema.pdf  # Visual representation of schema
+```
 
 ---
 
 ## 🚀 Getting Started
 
-To explore this project:
+To explore EngageNet, clone or download the repository and run the SQL scripts using any PostgreSQL-compatible database. You can view the schema in the PDFs and load sample data to test queries.
 
-1. Install PostgreSQL (or any SQL-compatible system).
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/thenakulpatel/EngageNet.git
-   cd EngageNet
+```bash
+git clone https://github.com/thenakulpatel/EngageNet
+cd EngageNet
+```
+
+You’re now ready to explore how social media platforms track engagement, user behavior, and content trends!
+
+---
+
+## 📬 Questions?
+
+Feel free to raise issues on this repo or reach out if you want to expand EngageNet with more features!
