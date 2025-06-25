@@ -57,7 +57,7 @@ Here are some interesting questions you can answer using EngageNet:
 ## 🗂️ Project Structure
 
 ```bash
-# tree structure
+
 EngageNet/
 ├── EngageNet_DDL_script.sql         # Table creation scripts
 ├── EngageNet_insert_data.txt        # Sample data for the tables
