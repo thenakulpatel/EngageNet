@@ -72,15 +72,8 @@ EngageNet/
 
 To explore EngageNet, clone or download the repository and run the SQL scripts using any PostgreSQL-compatible database. You can view the schema in the PDFs and load sample data to test queries.
 
-```bash
-git clone https://github.com/thenakulpatel/EngageNet
-cd EngageNet
-```
-
-You’re now ready to explore how social media platforms track engagement, user behavior, and content trends!
-
----
-
-## 📬 Questions?
-
-Feel free to raise issues on this repo or reach out if you want to expand EngageNet with more features!
+1. Install PostgreSQL (or any SQL-compatible system).
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/thenakulpatel/EngageNet.git
+   cd EngageNet
